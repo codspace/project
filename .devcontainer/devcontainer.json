@@ -1,0 +1,17 @@
+{
+	"name": "Ubuntu",
+	"build": {
+		"dockerfile": "Dockerfile",
+		// Update 'VARIANT' to pick an Ubuntu version: hirsute, focal, bionic
+		"args": { "VARIANT": "focal" }
+	},
+	"features": {
+		"codspace/myfeatures#helloworld": {
+			"greeting": "heyfirst"
+		},
+		"codspace/myotherfeatures#helloworld": {
+			"greeting": "heysecond"
+		},
+		"github-cli": "latest",
+	}
+}
