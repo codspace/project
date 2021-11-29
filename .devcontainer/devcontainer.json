@@ -6,10 +6,10 @@
 		"args": { "VARIANT": "focal" }
 	},
 	"features": {
-		"codspace/myfeatures#helloworld": {
+		"codspace/myfeatures/helloworld": {
 			"greeting": "heyfirst"
 		},
-		"codspace/myotherfeatures#helloworld": {
+		"codspace/myotherfeatures/helloworld": {
 			"greeting": "heysecond"
 		},
 		"github-cli": "latest",
