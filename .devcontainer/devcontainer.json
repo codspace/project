@@ -1,10 +1,6 @@
 {
 	"name": "Ubuntu",
-	"build": {
-		"dockerfile": "Dockerfile",
-		// Update 'VARIANT' to pick an Ubuntu version: hirsute, focal, bionic
-		"args": { "VARIANT": "focal" }
-	},
+	"image": "mcr.microsoft.com/vscode/devcontainers/base",
 	"features": {
 		"codspace/myfeatures/helloworld": {
 			"greeting": "heyfirst"
